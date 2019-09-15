@@ -1,4 +1,4 @@
-import {StepController} from "./step.controller";
+import {StepController} from './step.controller';
 
 export class QuizController {
     private readonly maxCorrectAnswersCount = 8;

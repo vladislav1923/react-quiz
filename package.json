@@ -7,7 +7,8 @@
     "build": "npm run build:prod",
     "build:prod": "cross-env NODE_ENV=production webpack --mode production --config ./webpack.config.js  --progress  --color --display-error-details --bail",
     "server:dev": "webpack-dev-server --mode development --config ./webpack.config.js --hot --inline --progress --watch --open",
-    "start": "npm run server:dev"
+    "start": "npm run server:dev",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "keywords": [],
   "author": "",
