@@ -1,0 +1,22 @@
+@import 'variables';
+
+.button {
+  color: $whiteColor;
+  text-transform: uppercase;
+  background-color: $orangeColor;
+  padding: 14px 46px;
+  border: none;
+  border-radius: 4px;
+  outline: none !important;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($orangeColor, 5%);
+  }
+
+  &_disabled {
+    pointer-events: none;
+    background-color: $darkGreyColor;
+    cursor: default;
+  }
+}

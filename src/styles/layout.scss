@@ -1,0 +1,46 @@
+@import 'variables';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 380px;
+  font-family: $regularFont;
+  line-height: 1.42;
+  color: $blackColor;
+}
+
+.header {
+  box-shadow: 0 18px 30px 0 rgba(128, 128, 128, 0.1);
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    font-family: $logoFont;
+    font-size: 24px;
+    color: $blackColor;
+  }
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+  height: 50px;
+  background-color: $blackColor;
+}
+

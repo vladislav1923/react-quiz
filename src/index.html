@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>The React Quiz</title>
+    <meta name="description" content="The React Quiz">
+    <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah:400&subset=latin' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+</head>
+    <body>
+        <header class="header">
+            <div class="header__container">
+                <span class="header__logo">The React Quiz</span>
+            </div>
+        </header>
+        <main class="main">
+            <section class="step step_active">
+                <h1 class="step__title">Eight questions about React</h1>
+                <div class="step__button-block">
+                    <button class="button step__button">Get started</button>
+                </div>
+            </section>
+            <section class="step">
+                <h2 class="step__title">1. What is React?</h2>
+                <ul class="step__answers-list">
+                    <li class="step__answer step__answer_correct">A JavaScript framework</li>
+                    <li class="step__answer">CSS preprocessor</li>
+                    <li class="step__answer">Language that compiles to CoffeeScript</li>
+                </ul>
+                <div class="step__button-block">
+                    <button class="button button_disabled step__button">Next question</button>
+                </div>
+            </section>
+            <section class="step">
+                <h2 class="step__title">2. Who made React?</h2>
+                <ul class="step__answers-list">
+                    <li class="step__answer">Google</li>
+                    <li class="step__answer">Twitter</li>
+                    <li class="step__answer step__answer_correct">Facebook</li>
+                </ul>
+                <div class="step__button-block">
+                    <button class="button button_disabled step__button">Next question</button>
+                </div>
+            </section>
+            <section class="step">
+                <h2 class="step__title">3. What is React used for?</h2>
+                <ul class="step__answers-list">
+                    <li class="step__answer">Adding variables to CSS</li>
+                    <li class="step__answer step__answer_correct">Building web apps</li>
+                    <li class="step__answer">Making websites cloud-ready</li>
+                </ul>
+                <div class="step__button-block">
+                    <button class="button button_disabled step__button">Next question</button>
+                </div>
+            </section>
+            <section class="step">
+                <h2 class="step__title">4. What is special about React?</h2>
+                <ul class="step__answers-list">
+                    <li class="step__answer">It brings HTML6 features to today's browsers</li>
+                    <li class="step__answer step__answer_correct">Virtual DOM</li>
+                    <li class="step__answer">Database integration</li>
+                </ul>
+                <div class="step__button-block">
+                    <button class="button button_disabled step__button">Next question</button>
+                </div>
+            </section>
+            <section class="step">
+                <h2 class="step__title">5. Which language is this?</h2>
+                <img class="step__image" src="./static/5.png" alt="">
+                <ul class="step__answers-list">
+                    <li class="step__answer">JavaScript</li>
+                    <li class="step__answer">CoffeeScript</li>
+                    <li class="step__answer step__answer_correct">JSX</li>
+                </ul>
+                <div class="step__button-block">
+                    <button class="button button_disabled step__button">Next question</button>
+                </div>
+            </section>
+            <section class="step">
+                <h2 class="step__title">6. What does this component do?</h2>
+                <img class="step__image" src="./static/6.png" alt="">
+                <ul class="step__answers-list">
+                    <li class="step__answer">Prints "Hello World!"</li>
+                    <li class="step__answer step__answer_correct">
+                        Prints "Hello", followed by the name attribute that was passed when initializing the component
+                    </li>
+                    <li class="step__answer">Prints the numbers from 1 to 10.</li>
+                </ul>
+                <div class="step__button-block">
+                    <button class="button button_disabled step__button">Next question</button>
+                </div>
+            </section>
+            <section class="step">
+                <h2 class="step__title">7. What does this code do?</h2>
+                <img class="step__image" src="./static/7.png" alt="">
+                <ul class="step__answers-list">
+                    <li class="step__answer step__answer_correct">Provides an initial value for the component's state</li>
+                    <li class="step__answer">Tells how many times the component should be focused</li>
+                    <li class="step__answer">Seeds a random number generator</li>
+                </ul>
+                <div class="step__button-block">
+                    <button class="button button_disabled step__button">Next question</button>
+                </div>
+            </section>
+            <section class="step">
+                <h2 class="step__title">8. What does this code do?</h2>
+                <img class="step__image" src="./static/8.png" alt="">
+                <ul class="step__answers-list">
+                    <li class="step__answer">
+                        Initializes a new UL component, and generates LI components for each entry in the items array property.
+                    </li>
+                    <li class="step__answer">Initializes a Google Map for every location in the items array</li>
+                    <li class="step__answer step__answer_correct">It won't work</li>
+                </ul>
+                <div class="step__button-block">
+                    <button class="button button_disabled step__button">Next question</button>
+                </div>
+            </section>
+            <section class="step">
+                <h2 class="step__title"></h2>
+                <p class="step__subtitle"></p>
+                <div class="step__button-block">
+                    <button class="button step__button">Try again</button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer"></footer>
+    </body>
+</html>
